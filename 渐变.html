@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd";>
+
+<html xmlns="http://www.w3.org/1999/xhtml";>
+
+<head>
+
+    <title></title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"; type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(".font").animate({ "font-size": "36px" }, 1000).animate({ "font-size": "18px" }, 1000);
+
+        })
+        var myDate=new Date();
+myDate.setFullYear(2015,8,28);
+var today = new Date();
+if (myDate>today)
+{
+   alert("Today is before 28th August 2015");
+}
+else
+{
+   alert("Today is after 28th August 2015");
+}
+
+    </script>
+
+</head>
+
+<body>
+
+<div class="font">你好</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
